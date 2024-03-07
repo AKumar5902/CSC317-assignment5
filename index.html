@@ -6,6 +6,22 @@
     <title>Document</title>
 </head>
 <body>
+    <svg width="100vh" height="300px" >
+        <rect width="100vh" height="100%" x="0" y="0" rx="10" fill="chocolate" />
+        <polygon points= "0,10 200,10 100,300" fill="green" stroke="gold" stroke-width="3"  />
+        <polygon points= "700,290 480,290 580,0"  fill="green" stroke="gold" stroke-width="3" />
+        <circle cx=50% cy=50% r=150 fill="brown">
+        <animate
+            attributeName="cx"
+            begin="0s"
+            dur="10s"
+            from="50"
+            to="100%"
+            repeatCount="indefinite" />
+            </circle>
+        <text  x=40% y=150 fill="gold" font-size="40" font-family="Times-New Roman"> Hello
+         </text>
+      </svg>
     <nav class="menue">
         <ul>
             <li><a href="./index.html">index.html</a></li>
@@ -16,7 +32,7 @@
     <h1>Assignment 5</h1>
     <h2 class="css-question">How to apply CSS to HTML</h2>
     <p class="css-question">To apply CSS to HTML externall you have to link it in the head of your document.
-         The code you have to add is <code> &lt;link rel="stylesheet" href="mystyle.css"&gt;</code>. This will allow you 
+         The code you have to add is <code> &lt;link rel="stylesheet" href="style.css"&gt;</code>. This will allow you 
         to add style to your html page.
     </p>
     <h2 class="js-question">How to Use JavaScript in a Webpage </h2>
